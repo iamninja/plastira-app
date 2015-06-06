@@ -1,4 +1,4 @@
-package com.codepath.android.navigationdrawerexercise.activities;
+package com.brokenspacebars.iamninja.plastirasmuseum.activities;
 
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -14,10 +14,10 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.codepath.android.navigationdrawerexercise.R;
-import com.codepath.android.navigationdrawerexercise.fragments.MuseumFragment;
-import com.codepath.android.navigationdrawerexercise.fragments.HistoryFragment;
-import com.codepath.android.navigationdrawerexercise.fragments.GalleryFragment;
+import com.brokenspacebars.iamninja.plastirasmuseum.R;
+import com.brokenspacebars.iamninja.plastirasmuseum.fragments.MuseumFragment;
+import com.brokenspacebars.iamninja.plastirasmuseum.fragments.HistoryFragment;
+import com.brokenspacebars.iamninja.plastirasmuseum.fragments.GalleryFragment;
 
 
 public class MainActivity extends AppCompatActivity {

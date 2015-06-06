@@ -1,4 +1,4 @@
-package com.codepath.android.navigationdrawerexercise;
+package com.brokenspacebars.iamninja.plastirasmuseum;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

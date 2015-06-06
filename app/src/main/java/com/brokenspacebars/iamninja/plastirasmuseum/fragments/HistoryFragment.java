@@ -1,4 +1,4 @@
-package com.codepath.android.navigationdrawerexercise.fragments;
+package com.brokenspacebars.iamninja.plastirasmuseum.fragments;
 
 
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.codepath.android.navigationdrawerexercise.R;
+import com.brokenspacebars.iamninja.plastirasmuseum.R;
 
 public class HistoryFragment extends Fragment {
 

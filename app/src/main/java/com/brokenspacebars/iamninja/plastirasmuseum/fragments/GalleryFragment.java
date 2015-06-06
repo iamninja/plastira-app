@@ -1,4 +1,4 @@
-package com.codepath.android.navigationdrawerexercise.fragments;
+package com.brokenspacebars.iamninja.plastirasmuseum.fragments;
 
 
 import android.os.Bundle;
@@ -7,14 +7,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.codepath.android.navigationdrawerexercise.R;
+import com.brokenspacebars.iamninja.plastirasmuseum.R;
 
-public class LocationFragment extends Fragment {
+public class GalleryFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_location, container, false);
+        return inflater.inflate(R.layout.fragment_gallery, container, false);
     }
 }
