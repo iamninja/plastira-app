@@ -55,6 +55,11 @@ public class MainActivity extends AppCompatActivity {
         NavigationView nvDrawer = (NavigationView) findViewById(R.id.nvView);
         // Setup drawer view
         setupDrawerContent(nvDrawer);
+
+        Fragment initialFragment = new FamilyGuyFragment();
+        FragmentManager fragmentManager;
+        fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.flContent, initialFragment).commit();
     }
 
     private ActionBarDrawerToggle setupDrawerToggle() {
