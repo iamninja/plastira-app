@@ -15,9 +15,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.codepath.android.navigationdrawerexercise.R;
-import com.codepath.android.navigationdrawerexercise.fragments.FamilyGuyFragment;
-import com.codepath.android.navigationdrawerexercise.fragments.FuturamaFragment;
-import com.codepath.android.navigationdrawerexercise.fragments.SimpsonsFragment;
+import com.codepath.android.navigationdrawerexercise.fragments.MuseumFragment;
+import com.codepath.android.navigationdrawerexercise.fragments.HistoryFragment;
+import com.codepath.android.navigationdrawerexercise.fragments.GalleryFragment;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         // Setup drawer view
         setupDrawerContent(nvDrawer);
 
-        Fragment initialFragment = new FamilyGuyFragment();
+        Fragment initialFragment = new MuseumFragment();
         FragmentManager fragmentManager;
         fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.flContent, initialFragment).commit();
@@ -121,16 +121,16 @@ public class MainActivity extends AppCompatActivity {
         Class fragmentClass;
         switch(menuItem.getItemId()) {
             case R.id.nav_first_fragment:
-                fragmentClass = FamilyGuyFragment.class;
+                fragmentClass = MuseumFragment.class;
                 break;
             case R.id.nav_second_fragment:
-                fragmentClass = FuturamaFragment.class;
+                fragmentClass = HistoryFragment.class;
                 break;
             case R.id.nav_third_fragment:
-                fragmentClass = SimpsonsFragment.class;
+                fragmentClass = GalleryFragment.class;
                 break;
             default:
-                fragmentClass = FamilyGuyFragment.class;
+                fragmentClass = MuseumFragment.class;
         }
 
         try {
