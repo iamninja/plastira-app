@@ -15,12 +15,12 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.brokenspacebars.iamninja.plastirasmuseum.R;
-import com.brokenspacebars.iamninja.plastirasmuseum.fragments.MuseumFragment;
-import com.brokenspacebars.iamninja.plastirasmuseum.fragments.HistoryFragment;
-import com.brokenspacebars.iamninja.plastirasmuseum.fragments.GalleryFragment;
-import com.brokenspacebars.iamninja.plastirasmuseum.fragments.LocationFragment;
-import com.brokenspacebars.iamninja.plastirasmuseum.fragments.ForecastFragment;
 import com.brokenspacebars.iamninja.plastirasmuseum.fragments.AboutFragment;
+import com.brokenspacebars.iamninja.plastirasmuseum.fragments.ForecastFragment;
+import com.brokenspacebars.iamninja.plastirasmuseum.fragments.GalleryFragment;
+import com.brokenspacebars.iamninja.plastirasmuseum.fragments.HistoryFragment;
+import com.brokenspacebars.iamninja.plastirasmuseum.fragments.LocationFragment;
+import com.brokenspacebars.iamninja.plastirasmuseum.fragments.MuseumFragment;
 
 
 
@@ -106,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
         super.onConfigurationChanged(newConfig);
         // Pass any configuration change to the drawer toggles
         mDrawerToggle.onConfigurationChanged(newConfig);
+
     }
 
     private void setupDrawerContent(NavigationView navigationView) {
