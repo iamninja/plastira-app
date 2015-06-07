@@ -6,6 +6,12 @@
     <string name="drawer_close">Close navigation drawer</string>
 
     <!-- Nav Drawer Menu Items -->
+    <string name="nav_museum">The Museum</string>
+    <string name="nav_history">History</string>
+    <string name="nav_gallery">Exhibits</string>
+    <string name="nav_location">Location</string>
+    <string name="nav_forecast">Forecast</string>
+    <string name="nav_about">About</string>
     <string-array name="nav_drawer_items">
         <item>South Park</item>
         <item>Family Guy</item>

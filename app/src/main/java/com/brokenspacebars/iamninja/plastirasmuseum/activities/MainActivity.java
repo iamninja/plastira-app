@@ -18,6 +18,12 @@ import com.brokenspacebars.iamninja.plastirasmuseum.R;
 import com.brokenspacebars.iamninja.plastirasmuseum.fragments.MuseumFragment;
 import com.brokenspacebars.iamninja.plastirasmuseum.fragments.HistoryFragment;
 import com.brokenspacebars.iamninja.plastirasmuseum.fragments.GalleryFragment;
+import com.brokenspacebars.iamninja.plastirasmuseum.fragments.LocationFragment;
+import com.brokenspacebars.iamninja.plastirasmuseum.fragments.ForecastFragment;
+import com.brokenspacebars.iamninja.plastirasmuseum.fragments.AboutFragment;
+
+
+
 
 
 public class MainActivity extends AppCompatActivity {
@@ -120,14 +126,23 @@ public class MainActivity extends AppCompatActivity {
 
         Class fragmentClass;
         switch(menuItem.getItemId()) {
-            case R.id.nav_first_fragment:
+            case R.id.nav_museum_fragment:
                 fragmentClass = MuseumFragment.class;
                 break;
-            case R.id.nav_second_fragment:
+            case R.id.nav_history_fragment:
                 fragmentClass = HistoryFragment.class;
                 break;
-            case R.id.nav_third_fragment:
+            case R.id.nav_gallery_fragment:
                 fragmentClass = GalleryFragment.class;
+                break;
+            case R.id.nav_location_fragment:
+                fragmentClass = LocationFragment.class;
+                break;
+            case R.id.nav_forecast_fragment:
+                fragmentClass = ForecastFragment.class;
+                break;
+            case R.id.nav_about_fragment:
+                fragmentClass = AboutFragment.class;
                 break;
             default:
                 fragmentClass = MuseumFragment.class;
