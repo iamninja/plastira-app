@@ -26,7 +26,7 @@ android:fitsSystemWindows="true">
 
         <ImageView
             android:id="@+id/backdrop"
-            android:src="@drawable/family_guy"
+            android:src="@drawable/protomi"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
@@ -68,13 +68,23 @@ android:fitsSystemWindows="true">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Info"
+                    android:text="@string/info"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/lorem_ipsum" />
+                    android:text="@string/phone" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/times" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fee" />
 
             </LinearLayout>
 
@@ -95,40 +105,21 @@ android:fitsSystemWindows="true">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Friends"
+                    android:text="@string/related_info"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/lorem_ipsum" />
-
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/card_margin"
-            android:layout_marginLeft="@dimen/card_margin"
-            android:layout_marginRight="@dimen/card_margin">
-
-            <LinearLayout
-                style="@style/Widget.CardContent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
+                    android:text="@string/related_info_text" />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Related"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
-
+                    android:text="@string/structure_text" />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/lorem_ipsum" />
+                    android:text="@string/goals_text" />
 
             </LinearLayout>
 
