@@ -31,8 +31,8 @@ public class LocationFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View V =  inflater.inflate(R.layout.fragment_location, container, false);
-
+//        View V =  inflater.inflate(R.layout.fragment_location, container, false);
+        View V =  inflater.inflate(R.layout.fragment_location, null);
         mMapView = (MapView) V.findViewById(R.id.mapView);
         mMapView.onCreate(savedInstanceState);
 
