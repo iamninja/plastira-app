@@ -46,8 +46,8 @@ public class LocationFragment extends Fragment {
 
         googleMap = mMapView.getMap();
         // latitude and longitude
-        double latitude = 39.353;
-        double longitude = 21.749;
+        double latitude = 39.351245;
+        double longitude = 21.752626;
 
         // Create marker
         MarkerOptions marker = new MarkerOptions().position(
@@ -60,7 +60,7 @@ public class LocationFragment extends Fragment {
         // Adding marker
         googleMap.addMarker(marker);
         CameraPosition cameraPosition = new CameraPosition.Builder()
-                .target(new LatLng(39.353, 21.749)).zoom(12).build();
+                .target(new LatLng(latitude, longitude)).zoom(12).build();
         googleMap.animateCamera(CameraUpdateFactory
                 .newCameraPosition(cameraPosition));
 
