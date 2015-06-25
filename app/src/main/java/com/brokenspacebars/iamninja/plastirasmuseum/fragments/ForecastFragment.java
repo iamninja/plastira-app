@@ -104,8 +104,10 @@ public class ForecastFragment extends Fragment {
             // For presentation, assume the user doesn't care about tenths of a degree.
             long roundedHigh = Math.round(high);
             long roundedLow = Math.round(low);
+            String degrees = "\u2103";
 
-            return roundedHigh + "/" + roundedLow;
+
+            return getString(R.string.temprature) + ": " + roundedHigh + "-" + roundedLow + degrees;
         }
 
         /**

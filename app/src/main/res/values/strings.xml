@@ -69,4 +69,7 @@
 
     <!--Map text-->
     <string name="map_marker_text">Μουσείο Ν. Πλαστήρα</string>
+
+    <!--Weather text-->
+    <string name="temprature">Θερμοκρασία</string>
 </resources>

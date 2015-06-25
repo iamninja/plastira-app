@@ -3,11 +3,11 @@
     tools:context=".MainActivity$ForecastFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin">
+    <!--android:background="@window"-->
 
     <ListView
         android:id="@+id/listview_forecast"
