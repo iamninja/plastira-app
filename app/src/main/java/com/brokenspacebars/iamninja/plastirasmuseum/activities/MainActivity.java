@@ -18,7 +18,6 @@ import com.brokenspacebars.iamninja.plastirasmuseum.R;
 import com.brokenspacebars.iamninja.plastirasmuseum.fragments.AboutFragment;
 import com.brokenspacebars.iamninja.plastirasmuseum.fragments.ForecastFragment;
 import com.brokenspacebars.iamninja.plastirasmuseum.fragments.GalleryFragment;
-import com.brokenspacebars.iamninja.plastirasmuseum.fragments.HistoryFragment;
 import com.brokenspacebars.iamninja.plastirasmuseum.fragments.LocationFragment;
 import com.brokenspacebars.iamninja.plastirasmuseum.fragments.MuseumFragment;
 
@@ -132,9 +131,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.nav_museum_fragment:
                 fragmentClass = MuseumFragment.class;
                 break;
-            case R.id.nav_history_fragment:
-                fragmentClass = HistoryFragment.class;
-                break;
+//            case R.id.nav_history_fragment:
+//                fragmentClass = HistoryFragment.class;
+//                break;
             case R.id.nav_gallery_fragment:
                 fragmentClass = GalleryFragment.class;
                 break;
