@@ -1,13 +1,73 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/black"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity$AboutFragment">
 
-    <ImageView
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/south_park"-->
+        <!--android:layout_centerInParent="true" />-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Μέρος της διπλωματικής εργασίας:"
+        android:id="@+id/textView"
+        android:layout_marginTop="64dp"
+        android:textAlignment="center"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/south_park"
-        android:layout_centerInParent="true" />
+        android:text="Μικρά τοπικά μουσεία και τοπικές κοινωνίες. Η μελέτη της περίπτωσης του τοπικού Μουσείου του Νικολάου Πλαστήρα."
+        android:id="@+id/textView2"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Γιάννης Γρηγορίου"
+        android:id="@+id/textView3"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Διοίκηση Πολιτισμικών Μονάδων"
+        android:id="@+id/textView4"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ΕΑΠ"
+        android:id="@+id/textView5"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal" />
 </RelativeLayout>
