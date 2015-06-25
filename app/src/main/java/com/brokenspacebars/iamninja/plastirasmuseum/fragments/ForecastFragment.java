@@ -148,8 +148,8 @@ public class ForecastFragment extends Fragment {
 
             String[] resultStrs = new String[numDays];
 
-            Log.e("TAG", weatherArray.getJSONObject(2).toString());
-            System.out.println(weatherArray.getJSONObject(2).toString());
+//            Log.e("TAG", weatherArray.getJSONObject(2).toString());
+//            System.out.println(weatherArray.getJSONObject(2).toString());
 
 
 
@@ -161,7 +161,7 @@ public class ForecastFragment extends Fragment {
 
                 // Get the JSON object representing the day
                 JSONObject dayForecast = weatherArray.getJSONObject(i);
-                System.out.print(dayForecast.toString());
+//                System.out.print(dayForecast.toString());
 
                 // The date/time is returned as a long.  We need to convert that
                 // into something human-readable, since most people won't read "1400356800" as
@@ -180,18 +180,18 @@ public class ForecastFragment extends Fragment {
                 JSONObject temperatureObject = dayForecast.getJSONObject(OWM_TEMPERATURE);
                 double high = temperatureObject.getDouble(OWM_MAX);
                 double low = temperatureObject.getDouble(OWM_MIN);
-                System.out.println(high);
-                System.out.println(low);
-                Log.e("asdf", description);
-                Log.e("asd", day);
+//                System.out.println(high);
+//                System.out.println(low);
+//                Log.e("asdf", description);
+//                Log.e("asd", day);
 
                 highAndLow = formatHighLows(high, low);
-                Log.e("sdfasd", highAndLow);
+//                Log.e("sdfasd", highAndLow);
                 resultStrs[i] = day + " - " + description + " - " + highAndLow;
-                Log.e("fasd", resultStrs[i]);
+//                Log.e("fasd", resultStrs[i]);
             }
-            System.out.print(resultStrs[2]);
-            Log.e("fasd", resultStrs[2]);
+//            System.out.print(resultStrs[2]);
+//            Log.e("fasd", resultStrs[2]);
             return resultStrs;
 
         }
@@ -276,10 +276,10 @@ public class ForecastFragment extends Fragment {
             }
 
             try {
-                System.out.print(forecastJsonStr);
+//                System.out.print(forecastJsonStr);
                 return getWeatherDataFromJson(forecastJsonStr, numDays);
             } catch (JSONException e) {
-                Log.e(LOG_TAG, e.getMessage(), e);
+//                Log.e(LOG_TAG, e.getMessage(), e);
                 e.printStackTrace();
             }
 

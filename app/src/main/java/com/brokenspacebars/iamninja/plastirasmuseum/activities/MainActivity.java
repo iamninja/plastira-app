@@ -157,6 +157,7 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
+        mDrawerLayout.closeDrawers();
         // Insert the fragment by replacing any existing fragment
         FragmentManager fragmentManager;
         fragmentManager = getSupportFragmentManager();
@@ -165,7 +166,6 @@ public class MainActivity extends AppCompatActivity {
         // Highlight the selected item, update the title, and close the drawer
         menuItem.setChecked(true);
         setTitle(menuItem.getTitle());
-        mDrawerLayout.closeDrawers();
     }
 
 

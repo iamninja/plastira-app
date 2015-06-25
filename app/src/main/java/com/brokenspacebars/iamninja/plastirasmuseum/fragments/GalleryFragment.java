@@ -16,6 +16,11 @@ import com.brokenspacebars.iamninja.plastirasmuseum.R;
 
 public class GalleryFragment extends Fragment {
 
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
     // The images to display in gallery
     Integer[] imageIDs = {
             R.drawable.photo1,

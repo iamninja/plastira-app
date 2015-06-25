@@ -6,12 +6,12 @@
     <string name="drawer_close">Close navigation drawer</string>
 
     <!-- Nav Drawer Menu Items -->
-    <string name="nav_museum">The Museum</string>
-    <string name="nav_history">History</string>
-    <string name="nav_gallery">Exhibits</string>
-    <string name="nav_location">Location</string>
-    <string name="nav_forecast">Forecast</string>
-    <string name="nav_about">About</string>
+    <string name="nav_museum">Το μουσείο</string>
+    <string name="nav_history">Ιστορία</string>
+    <string name="nav_gallery">Εκθέματα</string>
+    <string name="nav_location">Τοποθεσία</string>
+    <string name="nav_forecast">Ο καιρός</string>
+    <string name="nav_about">Περί</string>
     <string-array name="nav_drawer_items">
         <item>South Park</item>
         <item>Family Guy</item>
@@ -28,7 +28,7 @@
         <item>@drawable/ic_futurama</item>
     </array>
 
-    <string name="nav_header">Plastira\'s Museum</string>
+    <string name="nav_header">Μουσείο Πλαστήρα</string>
 
     <!-- Content Description -->
     <string name="desc_list_item_icon">Item Icon</string>
